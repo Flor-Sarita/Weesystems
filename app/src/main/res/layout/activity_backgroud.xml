@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom|center_horizontal|center_vertical"
+        tools:context=".backgroud">
+
+        <ImageView
+            android:id="@+id/rectangulo"
+            android:layout_width="411dp"
+            android:layout_height="85dp"
+            android:background="@drawable/rectangulo"
+            android:backgroundTint="@color/teal_200"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/title"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/border_education"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_margin="25dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.151">
+
+            <TextView
+                android:id="@+id/text_education"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/card_text"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/lineal_point"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="28dp"
+                android:backgroundTint="@color/white"
+                android:text="@string/linea_points"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:id="@+id/text_ucv"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginStart="90dp"
+                android:layout_marginTop="55dp"
+                android:text="@string/card_texttitle"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_sub"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginStart="90dp"
+                android:layout_marginTop="75dp"
+                android:text="@string/card_textsub"
+                android:textSize="14dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/text_fec"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginStart="90dp"
+                android:layout_marginTop="95dp"
+                android:text="@string/card_textfech"
+                android:textSize="14dp"
+                />
+
+            <ImageView
+                android:id="@+id/logoucv"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginVertical="65dp"
+                app:srcCompat="@drawable/ucv" />
+
+            <TextView
+                android:id="@+id/text_senati"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginStart="90dp"
+                android:layout_marginTop="120dp"
+                android:text="@string/card_texttitle1"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_sub1"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginStart="90dp"
+                android:layout_marginTop="142dp"
+                android:text="@string/card_textsub1"
+                android:textSize="13dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/text_fec1"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginStart="90dp"
+                android:layout_marginTop="160dp"
+                android:text="@string/card_fech1"
+                android:textSize="14dp"
+                />
+
+
+            <ImageView
+                android:id="@+id/logosena"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginVertical="114dp"
+                app:srcCompat="@drawable/log_m" />
+
+        </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/border_skill"
+        android:layout_width="364dp"
+        android:layout_height="396dp"
+        android:layout_gravity="bottom"
+        android:layout_margin="25dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/text_skill"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/card_textskills"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/lineal_point2"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/linea_points"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginStart="86dp"
+            android:layout_marginTop="70dp"
+            android:text="@string/card_title1"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/android_log"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginVertical="67dp"
+            app:srcCompat="@drawable/android" />
+
+        <ProgressBar
+            android:id="@+id/android_bar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="95dp"
+            android:layout_marginStart="85dp"
+            android:layout_marginEnd="25dp"
+            android:progress="88"
+            android:progressBackgroundTint="@color/grey"
+            android:progressTint="@color/teal_200" />
+
+
+        <TextView
+            android:id="@+id/github_text"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginStart="86dp"
+            android:layout_marginTop="130dp"
+            android:text="@string/card_github"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/github_log"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginVertical="130dp"
+            app:srcCompat="@drawable/github" />
+
+        <ProgressBar
+            android:id="@+id/github_bar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="155dp"
+            android:layout_marginStart="85dp"
+            android:layout_marginEnd="25dp"
+            android:progress="73"
+            android:progressBackgroundTint="@color/grey"
+            android:progressTint="@color/purple_a700" />
+
+        <TextView
+            android:id="@+id/text_corel"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginStart="86dp"
+            android:layout_marginTop="190dp"
+            android:text="@string/card_cdr"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/cdr_log"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginVertical="188dp"
+            app:srcCompat="@drawable/coreldrawpng" />
+
+        <ProgressBar
+            android:id="@+id/cdr_bar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginVertical="218dp"
+            android:layout_marginStart="85dp"
+            android:layout_marginEnd="25dp"
+            android:progress="35"
+            android:progressBackgroundTint="@color/grey"
+            android:progressTint="@color/amber_a700" />
+
+        <TextView
+            android:id="@+id/text_photoshop"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginStart="86dp"
+            android:layout_marginTop="250dp"
+            android:text="@string/card_psd"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/psd_log"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginVertical="248dp"
+            app:srcCompat="@drawable/photoshop" />
+
+        <ProgressBar
+            android:id="@+id/psd_bar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginVertical="278dp"
+            android:layout_marginStart="85dp"
+            android:layout_marginEnd="25dp"
+            android:progress="48"
+            android:progressBackgroundTint="@color/grey"
+            android:progressTint="@color/purple_700" />
+
+        <TextView
+            android:id="@+id/text_cad"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginStart="86dp"
+            android:layout_marginTop="310dp"
+            android:text="@string/card_cad"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/cad_log"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginVertical="312dp"
+            app:srcCompat="@drawable/cad" />
+
+        <ProgressBar
+            android:id="@+id/cad_bar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginVertical="337dp"
+            android:layout_marginStart="85dp"
+            android:layout_marginEnd="25dp"
+            android:progress="71"
+            android:progressBackgroundTint="@color/grey"
+            android:progressTint="@color/red_200" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

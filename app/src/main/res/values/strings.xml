@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Weesystem</string>
+    <string name="name_user">Flor Sarita</string>
+    <string name="name_role">Specialist of TI</string>
+    <string name="date_about">Soy estudiante de la carrera profesional de Computación e Informática de la Carrera de Trabajadores por Servicio (CTS). Laboro como Asistente de TI en un Centro Parroquial</string>
+    <string name="card_port">Portafolio</string>
+    <string name="card_inter">Interest</string>
+    <string name="card_experience">Experience</string>
+    <string name="card_background">Background</string>
+    <string name="card_interest">Interest</string>
+    <string name="card_portafolio">Portafolio</string>
+    <string name="title">Background</string>
+    <string name="card_text">Education</string>
+    <string name="linea_points">. . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . . . . . </string>
+    <string name="card_texttitle">Universidad César Vallejo</string>
+    <string name="card_textsub">Escuela de Post Grado</string>
+    <string name="card_textfech">2019-2020</string>
+    <string name="card_texttitle1">SENATI</string>
+    <string name="card_textsub1">CTS Calificación de Trabajadores en Servicio</string>
+    <string name="card_fech1">2020-2022</string>
+    <string name="card_textskills">Skills</string>
+    <string name="card_title1">Android Studio</string>
+    <string name="card_github">Github</string>
+    <string name="card_cdr">Corel Draw</string>
+    <string name="card_psd">Adobe Photoshop</string>
+    <string name="card_cad">AutoCAD</string>
+</resources>
